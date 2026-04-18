@@ -1,8 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Amaan Constructions</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+        nav { background: #1c1c1c; padding: 15px; text-align: center; }
+        nav a { color: #daa520; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { padding: 20px; max-width: 1000px; margin: auto; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+        .gallery-item { background: #fff; padding: 10px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .gallery-item img { width: 100%; border-radius: 5px; height: auto; display: block; }
+        .caption { padding: 10px 0; font-weight: bold; color: #1c1c1c; text-align: center; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
 <div class="container">
-    <h2>Project Gallery</h2>
-    <p>Showcasing our AI Architectural Renders and Civil Projects.</p>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-        <div style="background: #ddd; height: 150px; display: flex; align-items: center; justify-content: center;">Render 1</div>
-        <div style="background: #ddd; height: 150px; display: flex; align-items: center; justify-content: center;">Render 2</div>
+    <h2 style="border-left: 5px solid #daa520; padding-left: 10px;">Project Gallery</h2>
+    <p>Visualizing the future of construction through AI and Engineering.</p>
+
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="YOUR_IMAGE_NAME_1.jpg" alt="Modern Architecture Render">
+            <div class="caption">AI Architectural Render</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="YOUR_IMAGE_NAME_2.jpg" alt="Structural Design">
+            <div class="caption">AutoCAD Structural Plan</div>
+        </div>
     </div>
 </div>
+
+</body>
+</html>
+
